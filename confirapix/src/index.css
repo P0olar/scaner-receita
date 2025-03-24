@@ -1,7 +1,12 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 /* Header  */
@@ -77,13 +82,16 @@ footer {
 }
 
 .bancologin {
-  width: 20rem;
-  margin: 4rem;
+  width: 350px;
+  margin: 4rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Pricipal do Conteiner  parea o escaneamento*/
 .formulario {
-  margin: 2em 0rem;
+  margin: 02em 0rem;
   align-items: center;
   justify-content: center;
   display: flex;

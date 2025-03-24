@@ -7,6 +7,9 @@ const Login = () => {
             <div className='container'>
                 <div className="banco-cad">
                     <img src={bancosconct} className="bancologin" />
+                    <img src={bancosconct} className="bancologin" />
+                    <img src={bancosconct} className="bancologin" />
+                    <img src={bancosconct} className="bancologin" />
                 </div>
             </div>
         </>
