@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+
+
+/* Header  */
+header {
+  width: 100vw;
+  background-color: #222;
+  color: #fff;
+  padding: 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container img {
+  height: 8em;
+}
+
+
+
+
+/* Sessão ao Footer apenas */
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 5px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  margin-top: 15px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+}
+
+/* Login*/
+.container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  padding-bottom: 5rem;
+}
+
+.bancologin {
+  width: 20rem;
+  margin: 4rem;
+}
+
+/* Pricipal do Conteiner  parea o escaneamento*/
+.formulario {
+  margin: 2em 0rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+}
+
+.formulario p{
+  font-size: 1.5em;
+}
+
+
+
+
+/* Versão Mobiele*/
+@media screen and (max-width: 431px) {
+  .header-container img {
+    height: 6em;
+  }
+  
+  .footer-section h3 {
+    font-size: 17px;
+  }
+
+  .footer-section ul li a, .footer-section p {
+    font-size: 10px;
+  }
+}
