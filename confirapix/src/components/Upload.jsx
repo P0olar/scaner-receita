@@ -4,7 +4,6 @@ const Upload = () => {
     return (
         <>
             <input type="file" accept="image/*" id="file-input" />
-
         </>
     )
 }
