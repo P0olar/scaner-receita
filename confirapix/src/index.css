@@ -4,16 +4,8 @@
   box-sizing: border-box;
 }
 
-html,
-body {
-  overflow: hidden;
-}
-
-
-
 /* Header  */
 header {
-  width: 100vw;
   background-color: #222;
   color: #fff;
   padding: 0;
@@ -28,9 +20,6 @@ header {
 .header-container img {
   height: 8em;
 }
-
-
-
 
 /* Sessão ao Footer apenas */
 footer {
@@ -102,24 +91,22 @@ footer {
   flex-direction: column;
 }
 
-.formulario p{
+.formulario p {
   font-size: 1.5em;
 }
-
-
-
 
 /* Versão Mobiele*/
 @media screen and (max-width: 431px) {
   .header-container img {
     height: 6em;
   }
-  
+
   .footer-section h3 {
     font-size: 17px;
   }
 
-  .footer-section ul li a, .footer-section p {
+  .footer-section ul li a,
+  .footer-section p {
     font-size: 10px;
   }
 }

@@ -1,1 +1,1 @@
-ngrok http http://localhost:5173/
+.\ngrok http http://localhost:5173/
